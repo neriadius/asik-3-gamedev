@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "S:\\Unity projects\\GameDev AITU\\Asik 3 gamedev\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{33C99124-6F6A-3726-384E-F69EE533684B}|Assembly-CSharp.csproj|s:\\unity projects\\gamedev aitu\\asik 3 gamedev\\assets\\scripts\\player\\newinput\\animatormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33C99124-6F6A-3726-384E-F69EE533684B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\newinput\\animatormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33C99124-6F6A-3726-384E-F69EE533684B}|Assembly-CSharp.csproj|s:\\unity projects\\gamedev aitu\\asik 3 gamedev\\assets\\scripts\\player\\newinput\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33C99124-6F6A-3726-384E-F69EE533684B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\newinput\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33C99124-6F6A-3726-384E-F69EE533684B}|Assembly-CSharp.csproj|s:\\unity projects\\gamedev aitu\\asik 3 gamedev\\assets\\scripts\\player\\newinput\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33C99124-6F6A-3726-384E-F69EE533684B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\newinput\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33C99124-6F6A-3726-384E-F69EE533684B}|Assembly-CSharp.csproj|s:\\unity projects\\gamedev aitu\\asik 3 gamedev\\assets\\scripts\\player\\newinput\\playerlocomotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33C99124-6F6A-3726-384E-F69EE533684B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\newinput\\playerlocomotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33C99124-6F6A-3726-384E-F69EE533684B}|Assembly-CSharp.csproj|s:\\unity projects\\gamedev aitu\\asik 3 gamedev\\assets\\scripts\\player\\newinput\\player controls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33C99124-6F6A-3726-384E-F69EE533684B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\newinput\\player controls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InputManager.cs",
+              "DocumentMoniker": "S:\\Unity projects\\GameDev AITU\\Asik 3 gamedev\\Assets\\Scripts\\Player\\NewInput\\InputManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\NewInput\\InputManager.cs",
+              "ToolTip": "S:\\Unity projects\\GameDev AITU\\Asik 3 gamedev\\Assets\\Scripts\\Player\\NewInput\\InputManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\NewInput\\InputManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T16:42:27.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerManager.cs",
+              "DocumentMoniker": "S:\\Unity projects\\GameDev AITU\\Asik 3 gamedev\\Assets\\Scripts\\Player\\NewInput\\PlayerManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\NewInput\\PlayerManager.cs",
+              "ToolTip": "S:\\Unity projects\\GameDev AITU\\Asik 3 gamedev\\Assets\\Scripts\\Player\\NewInput\\PlayerManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\NewInput\\PlayerManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T16:42:23.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerLocomotion.cs",
+              "DocumentMoniker": "S:\\Unity projects\\GameDev AITU\\Asik 3 gamedev\\Assets\\Scripts\\Player\\NewInput\\PlayerLocomotion.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\NewInput\\PlayerLocomotion.cs",
+              "ToolTip": "S:\\Unity projects\\GameDev AITU\\Asik 3 gamedev\\Assets\\Scripts\\Player\\NewInput\\PlayerLocomotion.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\NewInput\\PlayerLocomotion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T16:42:22.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AnimatorManager.cs",
+              "DocumentMoniker": "S:\\Unity projects\\GameDev AITU\\Asik 3 gamedev\\Assets\\Scripts\\Player\\NewInput\\AnimatorManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\NewInput\\AnimatorManager.cs",
+              "ToolTip": "S:\\Unity projects\\GameDev AITU\\Asik 3 gamedev\\Assets\\Scripts\\Player\\NewInput\\AnimatorManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\NewInput\\AnimatorManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T16:32:01.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Player Controls.cs",
+              "DocumentMoniker": "S:\\Unity projects\\GameDev AITU\\Asik 3 gamedev\\Assets\\Scripts\\Player\\NewInput\\Player Controls.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\NewInput\\Player Controls.cs",
+              "ToolTip": "S:\\Unity projects\\GameDev AITU\\Asik 3 gamedev\\Assets\\Scripts\\Player\\NewInput\\Player Controls.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\NewInput\\Player Controls.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T16:42:21.318Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
