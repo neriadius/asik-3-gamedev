@@ -5,11 +5,15 @@ public class PlayerManager : MonoBehaviour
     InputManager inputManager;
     PlayerLocomotion playerLocomotion;
 
+    CameraManager cameraManager;
+
 
     private void Awake()
     {
         inputManager = GetComponent<InputManager>();
         playerLocomotion = GetComponent<PlayerLocomotion>();
+
+        cameraManager = FindAnyObjectByType<CameraManager>();
     }
 
 
@@ -21,6 +25,11 @@ public class PlayerManager : MonoBehaviour
     private void FixedUpdate()
     {
         playerLocomotion.HandleAllMovements();
+    }
+
+    private void LateUpdate()
+    {
+            cameraManager.HandleAllCameraMovement();
     }
 
 }
