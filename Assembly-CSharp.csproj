@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\Player\NewInput\ResetBool.cs" />
     <Compile Include="Assets\Scripts\Player\NewInput\PlayerLocomotion.cs" />
     <Compile Include="Assets\Kevin Iglesias\Human Animations\Scripts\SpineProxy.cs" />
+    <Compile Include="Assets\Scripts\Player\NewInput\ResetIsJumping.cs" />
     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\UnityChanControlScriptWithRgidBody.cs" />
     <Compile Include="Assets\Scripts\Player\NewInput\PlayerManager.cs" />
     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\SpringManager.cs" />

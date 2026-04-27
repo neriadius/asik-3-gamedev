@@ -448,6 +448,7 @@ MonoBehaviour:
   verticalInput: 0
   horizontalInput: 0
   sprint_Input: 0
+  jump_Input: 0
 --- !u!114 &707019669
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -482,10 +483,13 @@ MonoBehaviour:
     m_Bits: 1
   isSprinting: 0
   isGrounded: 0
+  isJumping: 0
   walkingSpeed: 1.5
   runningSpeed: 5
   sprintingSpeed: 7
   rotationSpeed: 15
+  jumpHeight: 3
+  gravityIntensity: -8
 --- !u!114 &707019671
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -498,6 +502,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dee839c00a3eb64a86d7949230fe50c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnimatorManager
+  animator: {fileID: 0}
 --- !u!1 &848631836
 GameObject:
   m_ObjectHideFlags: 0
