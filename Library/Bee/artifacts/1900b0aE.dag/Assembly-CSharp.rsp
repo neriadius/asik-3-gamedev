@@ -441,6 +441,7 @@
 "Assets/Scripts/Player/NewInput/Player Controls.cs"
 "Assets/Scripts/Player/NewInput/PlayerLocomotion.cs"
 "Assets/Scripts/Player/NewInput/PlayerManager.cs"
+"Assets/Scripts/Player/NewInput/ResetBool.cs"
 "Assets/Scripts/Player/PlayerMovement.cs"
 "Assets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs"
 "Assets/unity-chan!/Unity-chan! Model/Scripts/CameraController.cs"
