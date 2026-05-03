@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerLocomotion : MonoBehaviour
 {
@@ -32,6 +32,13 @@ public class PlayerLocomotion : MonoBehaviour
     public float jumpHeight = 3f;
     public float gravityIntensity = -8f;
 
+    [Header("Sounds")]
+    public AudioClip footSteps;
+    [SerializeField] private float stepInterval = 0.5f;
+    private float stepTimer;
+    public AudioClip jumpSound;
+    public AudioClip landingSound;
+
     private void Awake()
     {
         playerManager = GetComponent<PlayerManager>();
@@ -61,6 +68,8 @@ public class PlayerLocomotion : MonoBehaviour
         moveDirection = moveDirection + cameraObject.right * inputManager.horizontalInput;
         moveDirection.Normalize();
         moveDirection.y = 0;
+
+        HandleFootsteps();
 
         if (isSprinting)
         {
@@ -120,7 +129,7 @@ public class PlayerLocomotion : MonoBehaviour
             targetDirection = transform.forward;
         }
 
-        Quaternion targetRotation = Quaternion.LookRotation(targetDirection);
+        Quaternion targetRotation = Quaternion.LookRotation(targetDirection * 0.2f);
         Quaternion playerRotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
 
         transform.rotation = playerRotation;
@@ -135,10 +144,10 @@ public class PlayerLocomotion : MonoBehaviour
 
         if (!isGrounded && !isJumping)
         {
-            if (!playerManager.isInteracting)
-            {
-                animatorManager.PlayTargetAnimation("Falling", true);
-            }
+            //if (!playerManager.isInteracting)
+            //{
+            //    animatorManager.PlayTargetAnimation("Falling", true);
+            //}
 
             inAirTimer = inAirTimer + Time.deltaTime;
             playerRigidbody.AddForce(transform.forward * leapingVelocity);
@@ -159,6 +168,59 @@ public class PlayerLocomotion : MonoBehaviour
         {
             isGrounded = false;
         }
+
+        //RaycastHit hit;
+        //Vector3 rayCastOrigin = transform.position;
+        //rayCastOrigin.y = rayCastOrigin.y + rayCastHeightOffSet;
+
+        //// 🔻 Если в воздухе
+        //if (!isGrounded && !isJumping)
+        //{
+        //    if (!playerManager.isInteracting)
+        //    {
+        //        animatorManager.PlayTargetAnimation("Falling", true);
+        //    }
+
+        //    inAirTimer += Time.deltaTime;
+
+        //    //  НАПРАВЛЕНИЕ ДВИЖЕНИЯ В ВОЗДУХЕ (вместо transform.forward)
+        //    Vector3 airDirection = transform.forward * inputManager.verticalInput + transform.right * inputManager.horizontalInput;
+        //    airDirection.Normalize();
+
+        //    // движение в воздухе
+        //    playerRigidbody.AddForce(airDirection * leapingVelocity);
+
+        //    // падение вниз
+        //    playerRigidbody.AddForce(-Vector3.up * fallingVelocity * inAirTimer);
+
+        //    // Ограничение скорости в воздухе
+        //    Vector3 velocity = playerRigidbody.linearVelocity;
+        //    Vector3 horizontalVelocity = new Vector3(velocity.x, 0, velocity.z);
+
+        //    float maxAirSpeed = 5f;
+
+        //    if (horizontalVelocity.magnitude > maxAirSpeed)
+        //    {
+        //        Vector3 limitedVelocity = horizontalVelocity.normalized * maxAirSpeed;
+        //        playerRigidbody.linearVelocity = new Vector3(limitedVelocity.x, velocity.y, limitedVelocity.z);
+        //    }
+        //}
+
+        ////Проверка земли
+        //if (Physics.SphereCast(rayCastOrigin, 0.2f, -Vector3.up, out hit, groundLayer))
+        //{
+        //    if (!isGrounded && !playerManager.isInteracting)
+        //    {
+        //        animatorManager.PlayTargetAnimation("Land", true);
+        //    }
+
+        //    inAirTimer = 0;
+        //    isGrounded = true;
+        //}
+        //else
+        //{
+        //    isGrounded = false;
+        //}
     }
 
     public void HandleJumping()
@@ -168,10 +230,32 @@ public class PlayerLocomotion : MonoBehaviour
             animatorManager.animator.SetBool("isJumping", true);
             animatorManager.PlayTargetAnimation("Jump", false);
 
+            AudioClip jumpAudio = jumpSound;
+            AudioSource.PlayClipAtPoint(jumpAudio, transform.position);
+
             float jumpingVelocity = Mathf.Sqrt(-2 * gravityIntensity * jumpHeight);
             Vector3 playerVelocity = moveDirection;
             playerVelocity.y = jumpingVelocity;
             playerRigidbody.linearVelocity = playerVelocity;
+        }
+    }
+
+
+
+    private void HandleFootsteps()
+    {
+        // не двигается — не играем звук
+        if (inputManager.moveAmount < 0.1f || !isGrounded)
+            return;
+
+        stepTimer -= Time.deltaTime;
+
+        if (stepTimer <= 0f)
+        {
+            AudioSource.PlayClipAtPoint(footSteps, transform.position);
+
+            // скорость шагов зависит от бега
+            stepTimer = isSprinting ? stepInterval * 0.6f : stepInterval;
         }
     }
 
