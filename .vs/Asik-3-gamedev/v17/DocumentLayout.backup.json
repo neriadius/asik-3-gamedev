@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{F481ECCF-720A-AF0D-233B-8BA6606D3AFA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\coinmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F481ECCF-720A-AF0D-233B-8BA6606D3AFA}|Assembly-CSharp.csproj|d:\\gamedev\\asik-3-gamedev\\assets\\scripts\\coincollected.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F481ECCF-720A-AF0D-233B-8BA6606D3AFA}|Assembly-CSharp.csproj|D:\\GameDev\\Asik-3-gamedev\\assets\\scripts\\coincollected.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F481ECCF-720A-AF0D-233B-8BA6606D3AFA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\coincollected.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\CoinManager.cs",
               "ToolTip": "D:\\GameDev\\Asik-3-gamedev\\Assets\\Scripts\\CoinManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\CoinManager.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAIwAgAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvwgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-03T15:00:10.541Z",
               "EditorCaption": ""
@@ -51,8 +51,7 @@
               "RelativeToolTip": "Assets\\Scripts\\CoinCollected.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-03T14:58:35.669Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-03T14:58:35.669Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "Assets\\Scripts\\CoinRotation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-03T14:51:02.701Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-03T14:51:02.701Z"
             },
             {
               "$type": "Document",
