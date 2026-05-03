@@ -87,6 +87,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\Scripts\CoinRotation.cs" />
     <Compile Include="Assets\Scripts\Player\NewInput\ResetBool.cs" />
+    <Compile Include="Assets\Scripts\MovableObject.cs" />
     <Compile Include="Assets\Scripts\CoinManager.cs" />
     <Compile Include="Assets\Scripts\Player\NewInput\PlayerLocomotion.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
