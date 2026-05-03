@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.11f1 (3000ef702840) revision 3145967'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-gadcl" at "2026-05-03T19:42:15.9106948Z"
 OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 24283 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-gadcl" at "2026-05-03T15:55:56.0350148Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-05-03T15:55:56Z
+Date: 2026-05-03T19:42:15Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.11f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ D:/GameDev/Asik-3-gamedev
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-59644
+55161
 -licensingIpc
 LicenseClient-gadcl
 -job-worker-count
@@ -67,16 +67,16 @@ D:/GameDev/Asik-3-gamedev
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [29276]  Target information:
+Player connection [34904]  Target information:
 
-Player connection [29276]  * "[IP] 192.168.1.94 [Port] 0 [Flags] 2 [Guid] 3850895425 [EditorId] 3850895425 [Version] 1048832 [Id] WindowsEditor(7,SkibidiRizzOhio) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [34904]  * "[IP] 192.168.1.94 [Port] 0 [Flags] 2 [Guid] 1681609570 [EditorId] 1681609570 [Version] 1048832 [Id] WindowsEditor(7,SkibidiRizzOhio) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [29276]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3850895425 [EditorId] 3850895425 [Version] 1048832 [Id] WindowsEditor(7,SkibidiRizzOhio) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [34904]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1681609570 [EditorId] 1681609570 [Version] 1048832 [Id] WindowsEditor(7,SkibidiRizzOhio) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [29276]  * "[IP] 172.21.224.1 [Port] 0 [Flags] 2 [Guid] 3850895425 [EditorId] 3850895425 [Version] 1048832 [Id] WindowsEditor(7,SkibidiRizzOhio) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [34904]  * "[IP] 172.21.224.1 [Port] 0 [Flags] 2 [Guid] 1681609570 [EditorId] 1681609570 [Version] 1048832 [Id] WindowsEditor(7,SkibidiRizzOhio) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [29276] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [29276] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [34904] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [34904] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -88,7 +88,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.68 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.30 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.11f1 (3000ef702840)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -104,65 +104,65 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56672
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56120
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002122 seconds.
+Registered in 0.003917 seconds.
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.18.0'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-gadcl"
 [Licensing::IpcConnector] LicenseClient-gadcl channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-gadcl-6000.3.11" at "2026-05-03T15:55:57.4251075Z"
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.18.0+23225a6
-  Session Id:              273e6f040f1e49f79787d028b7dfa2cf
-  Correlation Id:          641d65296da9af3dd735ce0b32439a5f
-  External correlation Id: 4828732529021321357
-  Machine Id:              XmwOHCsSruPRqxG65dTJY9qaKx0=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-gadcl-6000.3.11" (connect: 0.00s, validation: 0.00s, handshake: 0.12s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-gadcl-6000.3.11-notifications" at "2026-05-03T15:55:57.5509538Z"
-[Licensing::Module] Licensing Background thread has ended after 1.52s
-- Loaded All Assemblies, in  0.578 seconds
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-gadcl-6000.3.11" at "2026-05-03T19:42:17.2242319Z"
+- Loaded All Assemblies, in  0.534 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.0+23225a6
+  Session Id:              72512b69cf7c4d83a6a7b8cdfd8b2971
+  Correlation Id:          7b00f7b75c74fddff20fe2a80d4d0fdd
+  External correlation Id: 2459105248975702805
+  Machine Id:              XmwOHCsSruPRqxG65dTJY9qaKx0=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-gadcl-6000.3.11" (connect: 0.00s, validation: 0.00s, handshake: 0.19s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-gadcl-6000.3.11-notifications" at "2026-05-03T19:42:17.4122569Z"
+[Licensing::Module] Licensing Background thread has ended after 1.50s
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.419 seconds
-Domain Reload Profiling: 994ms
-	BeginReloadAssembly (215ms)
+- Finished resetting the current domain, in  0.450 seconds
+Domain Reload Profiling: 982ms
+	BeginReloadAssembly (184ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (51ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (58ms)
-	LoadAllAssembliesAndSetupDomain (236ms)
-		LoadAssemblies (211ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (227ms)
+		LoadAssemblies (182ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (231ms)
-			TypeCache.Refresh (229ms)
-				TypeCache.ScanAssembly (214ms)
+		AnalyzeDomain (224ms)
+			TypeCache.Refresh (221ms)
+				TypeCache.ScanAssembly (205ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (419ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (451ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (382ms)
+		SetupLoadedEditorAssemblies (411ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (65ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (89ms)
-			ProcessInitializeOnLoadAttributes (144ms)
-			ProcessInitializeOnLoadMethodAttributes (80ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (148ms)
+			ProcessInitializeOnLoadMethodAttributes (100ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -180,11 +180,11 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.767 seconds
+- Loaded All Assemblies, in  0.801 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
@@ -199,392 +199,52 @@ Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInter
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.774 seconds
-Domain Reload Profiling: 1539ms
-	BeginReloadAssembly (200ms)
+- Finished resetting the current domain, in  0.877 seconds
+Domain Reload Profiling: 1676ms
+	BeginReloadAssembly (194ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (482ms)
-		LoadAssemblies (327ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (506ms)
+		LoadAssemblies (381ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (253ms)
-			TypeCache.Refresh (201ms)
-				TypeCache.ScanAssembly (187ms)
-			BuildScriptInfoCaches (40ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (775ms)
+		AnalyzeDomain (232ms)
+			TypeCache.Refresh (176ms)
+				TypeCache.ScanAssembly (163ms)
+			BuildScriptInfoCaches (47ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (878ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (642ms)
+		SetupLoadedEditorAssemblies (738ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (116ms)
-			ProcessInitializeOnLoadAttributes (473ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (553ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4501 unused Assets / (1.4 MB). Loaded Objects now: 5141.
-Memory consumption went from 122.7 MB to 121.2 MB.
-Total: 9.752700 ms (FindLiveObjects: 1.058300 ms CreateObjectMapping: 0.559600 ms MarkObjects: 6.545300 ms  DeleteObjects: 1.587900 ms)
+Unloading 4501 unused Assets / (1.2 MB). Loaded Objects now: 5141.
+Memory consumption went from 123.4 MB to 122.2 MB.
+Total: 6.464800 ms (FindLiveObjects: 0.387000 ms CreateObjectMapping: 0.303600 ms MarkObjects: 4.737700 ms  DeleteObjects: 1.035200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11123.260601 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Rocks/RockBig_D.fbx
-  artifactKey: Guid(9e824bd66e5195645a5e60322bb13305) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Rocks/RockBig_D.fbx using Guid(9e824bd66e5195645a5e60322bb13305) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e33bc043d56271cc19b1ee2947540343') in 0.2248455 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Rocks/Rock_H.fbx
-  artifactKey: Guid(6a9aea0c2812faa4f988e903be7ad43c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Rocks/Rock_H.fbx using Guid(6a9aea0c2812faa4f988e903be7ad43c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1ac4ead0cd7fe45b53fe0dcc2ac445d0') in 0.0246326 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Rocks/Rock_F.fbx
-  artifactKey: Guid(eab57635b1a7a2d40b5697d6f5ba8f72) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Rocks/Rock_F.fbx using Guid(eab57635b1a7a2d40b5697d6f5ba8f72) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2ef58abf417ba4ccb16185af46827717') in 0.0206577 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Prefabs/Land/Dirt_B.prefab
-  artifactKey: Guid(77b5b20a0b6c0cb43a33bfd022f5dae7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Prefabs/Land/Dirt_B.prefab using Guid(77b5b20a0b6c0cb43a33bfd022f5dae7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ac5ff2aefbf675bb61566a6c298aca80') in 0.0240891 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Land/Hill_D.fbx
-  artifactKey: Guid(fd3d6ab3be99b484bb36832cf5d60f39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Land/Hill_D.fbx using Guid(fd3d6ab3be99b484bb36832cf5d60f39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd99b081787ee7d641c65d05d89d7bbef') in 0.0272088 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Prefabs/Rocks/Rock_G.prefab
-  artifactKey: Guid(505df675fbdd0f84482b2c970013b879) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Prefabs/Rocks/Rock_G.prefab using Guid(505df675fbdd0f84482b2c970013b879) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a6835fdc0b6f6c50f4e9dc8568ec6e03') in 0.0185981 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Props
-  artifactKey: Guid(0c83c34dc05bdbf4697e436e639f128d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Props using Guid(0c83c34dc05bdbf4697e436e639f128d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '946044f06c9e4e9cb5fd043b0071ea57') in 0.0147022 seconds
+  Time since last request: 24703.223980 seconds.
+  path: Assets/Scenes/Level 1.unity
+  artifactKey: Guid(e6dbee7d2ec1d274badb27d08ac49ed1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/Level 1.unity using Guid(e6dbee7d2ec1d274badb27d08ac49ed1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd5e955ef00fb891c0c9f14ca6e71621d') in 0.0787132 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Prefabs/Nature
-  artifactKey: Guid(4042b0d567ce56e41a1f48fdf629a0a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Prefabs/Nature using Guid(4042b0d567ce56e41a1f48fdf629a0a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '39e4074260a443e5d6ffa9729e61b307') in 0.0148883 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Prefabs/Land/Dirt_A.prefab
-  artifactKey: Guid(ed0e965fd34f2b241ae648dfb47eca4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Prefabs/Land/Dirt_A.prefab using Guid(ed0e965fd34f2b241ae648dfb47eca4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9baae9a2a6cd9b98f61d8a2ca40ff05e') in 0.0164056 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Prefabs/Rocks/RockBig_A.prefab
-  artifactKey: Guid(c8840d2eec84bf74e881e52221e983cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Prefabs/Rocks/RockBig_A.prefab using Guid(c8840d2eec84bf74e881e52221e983cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5a1f2a78251c4d50ccf3cf652489ea64') in 0.0182272 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Land
-  artifactKey: Guid(a64f40df6b9d6654db6a439d7a631216) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Land using Guid(a64f40df6b9d6654db6a439d7a631216) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8c070629554f34573d7b46bf9a3f80a9') in 0.0131877 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Nature/Bush.fbx
-  artifactKey: Guid(7416d0adc2bd12e40ba564e6c13bfba2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Nature/Bush.fbx using Guid(7416d0adc2bd12e40ba564e6c13bfba2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0037d041dad0a27f64c0de30894be215') in 0.023676 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Prefabs/Land/Hill_A.prefab
-  artifactKey: Guid(1dd8e6064f654c94d80cbf46fac66f67) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Prefabs/Land/Hill_A.prefab using Guid(1dd8e6064f654c94d80cbf46fac66f67) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cd1b3de2e5ea1da396abad6a47d589c0') in 0.0157022 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Prefabs/Nature/Log_A.prefab
-  artifactKey: Guid(a157b6500bc991049b8baf55bd405fe2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Prefabs/Nature/Log_A.prefab using Guid(a157b6500bc991049b8baf55bd405fe2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '41774440f93147610aa87cf85206d5c4') in 0.0159946 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Prefabs/Rocks/RockBig_C.prefab
-  artifactKey: Guid(1d4e75c7bf1424d48b3eeb855f705548) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Prefabs/Rocks/RockBig_C.prefab using Guid(1d4e75c7bf1424d48b3eeb855f705548) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0a2fb381e02791bfe3c0f45243ecf39c') in 0.0232487 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Land/Hill_C.fbx
-  artifactKey: Guid(5f82b1fa1556b814985f1588e68334fd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Land/Hill_C.fbx using Guid(5f82b1fa1556b814985f1588e68334fd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4c31a8e16c281d5293239032ea6fce6b') in 0.0222818 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Prefabs/Nature/Tree.prefab
-  artifactKey: Guid(cd769ec570901c24cbd1a251e41befc8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Prefabs/Nature/Tree.prefab using Guid(cd769ec570901c24cbd1a251e41befc8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8d9431f1d3dcc9ca702d4bed3a7f119e') in 0.0185425 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Rocks/Rock_A.fbx
-  artifactKey: Guid(d0b0c6284ba658549b62c6f13d515c52) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Rocks/Rock_A.fbx using Guid(d0b0c6284ba658549b62c6f13d515c52) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '567cfee8b379150309b90b0489d751a1') in 0.0203836 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Prefabs/Rocks/Rock_A.prefab
-  artifactKey: Guid(b478e9aa561da8647ba608935c139420) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Prefabs/Rocks/Rock_A.prefab using Guid(b478e9aa561da8647ba608935c139420) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '027098ac8321f051ef23b6710539f9aa') in 0.0176169 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Land/Hill_A.fbx
-  artifactKey: Guid(8cc4de8dffc0896438202b8d757c0ce2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Land/Hill_A.fbx using Guid(8cc4de8dffc0896438202b8d757c0ce2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ff8233daea5a2975a9dbff62c9af3053') in 0.0269329 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Land/Land_B.fbx
-  artifactKey: Guid(21cadab7c92cc1046a232cba7c953a0b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Land/Land_B.fbx using Guid(21cadab7c92cc1046a232cba7c953a0b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bf1805d7e387b1152c9ea0a8e26b0bae') in 0.0208345 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Prefabs/Props/Fence_B.prefab
-  artifactKey: Guid(6d0e3890cc707974fbfe825098050938) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Prefabs/Props/Fence_B.prefab using Guid(6d0e3890cc707974fbfe825098050938) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8cec572170059e6fc6c061fdbb40364d') in 0.0188998 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Nature/Log_A.fbx
-  artifactKey: Guid(3ba865fec46b79544953884e119a8c14) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Nature/Log_A.fbx using Guid(3ba865fec46b79544953884e119a8c14) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b3d92ec158b29d5d5cbeec8b15eb98b6') in 0.0218799 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Prefabs/Nature/Grass.prefab
-  artifactKey: Guid(e05275716671e9a4bb07a9ee04745ff9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Prefabs/Nature/Grass.prefab using Guid(e05275716671e9a4bb07a9ee04745ff9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '53ddc42d7f0cf9cee65909ae37f9eba8') in 0.0196135 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Prefabs/Rocks/Rock_F.prefab
-  artifactKey: Guid(aacf519c6e89a8246b6200cf697bcb66) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Prefabs/Rocks/Rock_F.prefab using Guid(aacf519c6e89a8246b6200cf697bcb66) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c8f1ca88d1274abb49a141d99ed3ac17') in 0.0176157 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Prefabs/Rocks/RockBig_B.prefab
-  artifactKey: Guid(a0bc0a730437e1e48b80352f449cfb08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Prefabs/Rocks/RockBig_B.prefab using Guid(a0bc0a730437e1e48b80352f449cfb08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f055990ff5a6ce4f5a8aa788efc1df28') in 0.0182701 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Land/Land_A.fbx
-  artifactKey: Guid(19c5e14141faabe47bb9224f04c0b092) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Land/Land_A.fbx using Guid(19c5e14141faabe47bb9224f04c0b092) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '649933ea44fe624c31109bcea915bac4') in 0.0275793 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Demo_Scene/Demo_Scene_3.unity
-  artifactKey: Guid(16eb34b71cd661846828d50251688fb0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Demo_Scene/Demo_Scene_3.unity using Guid(16eb34b71cd661846828d50251688fb0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6ca4498148310505fdbe71108fe2422d') in 0.0254639 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Prefabs/Land/Hill_D.prefab
-  artifactKey: Guid(20fceacb76971b24dbd61e059c95babf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Prefabs/Land/Hill_D.prefab using Guid(20fceacb76971b24dbd61e059c95babf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '42b0cbd14cd8d8e0a2042c51064fe568') in 0.0246922 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Prefabs/Rocks/Rock_H.prefab
-  artifactKey: Guid(843d007db49deed4a9dc8d57f9455192) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Prefabs/Rocks/Rock_H.prefab using Guid(843d007db49deed4a9dc8d57f9455192) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6837e6a5f25fac7925cb3e086b8cbf48') in 0.0263425 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Prefabs/Rocks/Rock_B.prefab
-  artifactKey: Guid(13a5707e49747d4488236b15998da302) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Prefabs/Rocks/Rock_B.prefab using Guid(13a5707e49747d4488236b15998da302) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '28fdd9e0443d99cdac8f2e6480ebba8e') in 0.0184709 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Prefabs/Land/Dirt_C.prefab
-  artifactKey: Guid(53503b4c59bb6184d83552040c93aa9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Prefabs/Land/Dirt_C.prefab using Guid(53503b4c59bb6184d83552040c93aa9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '03270919eda26863ce4d6894793e5275') in 0.0205148 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.414081 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Rocks/RockBig_E.fbx
-  artifactKey: Guid(3cf9dc2645448d745ab4b6e9d2470ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Rocks/RockBig_E.fbx using Guid(3cf9dc2645448d745ab4b6e9d2470ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69aace8bac140d14623c3946e91ca96e') in 0.1476609 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Rocks/Rock_B.fbx
-  artifactKey: Guid(15349fea99d021d4195cd810b6cbbd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Rocks/Rock_B.fbx using Guid(15349fea99d021d4195cd810b6cbbd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16dfa19d7b796526af4f0ebc33505fef') in 0.0374756 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Rocks/Rock_H.fbx
-  artifactKey: Guid(6a9aea0c2812faa4f988e903be7ad43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Rocks/Rock_H.fbx using Guid(6a9aea0c2812faa4f988e903be7ad43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd8b258a6cf832f574bad28012ffec9f') in 0.0296794 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Land/Hill_D.fbx
-  artifactKey: Guid(fd3d6ab3be99b484bb36832cf5d60f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Land/Hill_D.fbx using Guid(fd3d6ab3be99b484bb36832cf5d60f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fba4704029e7d4db5f73fb7541ac8c4e') in 0.0292479 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Rocks/RockBig_A.fbx
-  artifactKey: Guid(5117a8120b5ac3844b879ebd185c1485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Rocks/RockBig_A.fbx using Guid(5117a8120b5ac3844b879ebd185c1485) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '430583305f897a9c36778b11be68016c') in 0.0276858 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Land/Dirt_B.fbx
-  artifactKey: Guid(69a970d1eda91b747897fa27709223d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Land/Dirt_B.fbx using Guid(69a970d1eda91b747897fa27709223d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6dc8a2e97bee95fff6e8719fd7301076') in 0.0307324 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Rocks/Rock_G.fbx
-  artifactKey: Guid(d381b5847899b2a46bba40328bdbe0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Rocks/Rock_G.fbx using Guid(d381b5847899b2a46bba40328bdbe0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7dff6a8ad5d977ce784f1ca6be645bca') in 0.0340837 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Nature/Log_B.fbx
-  artifactKey: Guid(e090c399dd1ffb84786df5efa64d8f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Nature/Log_B.fbx using Guid(e090c399dd1ffb84786df5efa64d8f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1e2815e845d40a9e98beaa05db21268') in 0.0346817 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Rocks/RockBig_B.fbx
-  artifactKey: Guid(e72616ed7aaa9124ea930e44b4e58377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Rocks/RockBig_B.fbx using Guid(e72616ed7aaa9124ea930e44b4e58377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8cd2ee11fc6c204273d8c345eba70811') in 0.0262362 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Land/Hill_E.fbx
-  artifactKey: Guid(a74c3198edf674747872581ad899f30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Land/Hill_E.fbx using Guid(a74c3198edf674747872581ad899f30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2573cc46837dae75c7fd74bf44121a11') in 0.0274656 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.241544 seconds.
-  path: Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Rocks/Rock_F.fbx
-  artifactKey: Guid(eab57635b1a7a2d40b5697d6f5ba8f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MoonlightStudios/Simple Cartoon Enviroment Pack/Models/Rocks/Rock_F.fbx using Guid(eab57635b1a7a2d40b5697d6f5ba8f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15313ab4b9f93968aa56cdf0a9346b48') in 0.0347572 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0

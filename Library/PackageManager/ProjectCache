@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639128757507745551
+      ticks: 639134337637691565
     m_Hash: 1572317701
   m_LockFileStatus:
     m_FilePath: D:/GameDev/Asik-3-gamedev/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639128757507745551
+      ticks: 639134337637705053
     m_Hash: 3092072098
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
