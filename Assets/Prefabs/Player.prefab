@@ -197,7 +197,7 @@ GameObject:
   - component: {fileID: 8290886707624977835}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -302,6 +302,10 @@ PrefabInstance:
     - target: {fileID: 8328213514294298397, guid: bca3874970c1cad49a6e452185322cee, type: 3}
       propertyPath: m_Name
       value: unitychan
+      objectReference: {fileID: 0}
+    - target: {fileID: 8328213514294298397, guid: bca3874970c1cad49a6e452185322cee, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

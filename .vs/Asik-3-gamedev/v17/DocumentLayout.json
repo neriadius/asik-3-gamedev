@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GameDev\\Asik-3-gamedev\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F481ECCF-720A-AF0D-233B-8BA6606D3AFA}|Assembly-CSharp.csproj|d:\\gamedev\\asik-3-gamedev\\assets\\scripts\\coinmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F481ECCF-720A-AF0D-233B-8BA6606D3AFA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\coinmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F481ECCF-720A-AF0D-233B-8BA6606D3AFA}|Assembly-CSharp.csproj|D:\\GameDev\\Asik-3-gamedev\\assets\\scripts\\coincollected.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F481ECCF-720A-AF0D-233B-8BA6606D3AFA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\coincollected.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F481ECCF-720A-AF0D-233B-8BA6606D3AFA}|Assembly-CSharp.csproj|D:\\GameDev\\Asik-3-gamedev\\assets\\scripts\\coinrotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F481ECCF-720A-AF0D-233B-8BA6606D3AFA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\coinrotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F481ECCF-720A-AF0D-233B-8BA6606D3AFA}|Assembly-CSharp.csproj|D:\\GameDev\\Asik-3-gamedev\\assets\\scripts\\player\\newinput\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F481ECCF-720A-AF0D-233B-8BA6606D3AFA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\newinput\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CoinManager.cs",
+              "DocumentMoniker": "D:\\GameDev\\Asik-3-gamedev\\Assets\\Scripts\\CoinManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CoinManager.cs",
+              "ToolTip": "D:\\GameDev\\Asik-3-gamedev\\Assets\\Scripts\\CoinManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CoinManager.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAywAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T15:00:10.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CoinCollected.cs",
+              "DocumentMoniker": "D:\\GameDev\\Asik-3-gamedev\\Assets\\Scripts\\CoinCollected.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CoinCollected.cs",
+              "ToolTip": "D:\\GameDev\\Asik-3-gamedev\\Assets\\Scripts\\CoinCollected.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CoinCollected.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T14:58:35.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CoinRotation.cs",
+              "DocumentMoniker": "D:\\GameDev\\Asik-3-gamedev\\Assets\\Scripts\\CoinRotation.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CoinRotation.cs",
+              "ToolTip": "D:\\GameDev\\Asik-3-gamedev\\Assets\\Scripts\\CoinRotation.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CoinRotation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T14:51:02.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerManager.cs",
+              "DocumentMoniker": "D:\\GameDev\\Asik-3-gamedev\\Assets\\Scripts\\Player\\NewInput\\PlayerManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\NewInput\\PlayerManager.cs",
+              "ToolTip": "D:\\GameDev\\Asik-3-gamedev\\Assets\\Scripts\\Player\\NewInput\\PlayerManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\NewInput\\PlayerManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T14:45:48.35Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
