@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "S:\\Unity projects\\GameDev AITU\\Asik 3 gamedev\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{33C99124-6F6A-3726-384E-F69EE533684B}|Assembly-CSharp.csproj|s:\\unity projects\\gamedev aitu\\asik 3 gamedev\\assets\\scripts\\coincollected.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33C99124-6F6A-3726-384E-F69EE533684B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\coincollected.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33C99124-6F6A-3726-384E-F69EE533684B}|Assembly-CSharp.csproj|S:\\Unity projects\\GameDev AITU\\Asik 3 gamedev\\assets\\scripts\\player\\newinput\\playerlocomotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33C99124-6F6A-3726-384E-F69EE533684B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\newinput\\playerlocomotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33C99124-6F6A-3726-384E-F69EE533684B}|Assembly-CSharp.csproj|s:\\unity projects\\gamedev aitu\\asik 3 gamedev\\assets\\scripts\\player\\newinput\\playerlocomotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33C99124-6F6A-3726-384E-F69EE533684B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\newinput\\playerlocomotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33C99124-6F6A-3726-384E-F69EE533684B}|Assembly-CSharp.csproj|s:\\unity projects\\gamedev aitu\\asik 3 gamedev\\assets\\scripts\\coincollected.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33C99124-6F6A-3726-384E-F69EE533684B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\coincollected.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33C99124-6F6A-3726-384E-F69EE533684B}|Assembly-CSharp.csproj|S:\\Unity projects\\GameDev AITU\\Asik 3 gamedev\\assets\\scripts\\player\\newinput\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,11 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CoinCollected.cs",
               "DocumentMoniker": "S:\\Unity projects\\GameDev AITU\\Asik 3 gamedev\\Assets\\Scripts\\CoinCollected.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CoinCollected.cs",
@@ -87,13 +87,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "PlayerLocomotion.cs",
               "DocumentMoniker": "S:\\Unity projects\\GameDev AITU\\Asik 3 gamedev\\Assets\\Scripts\\Player\\NewInput\\PlayerLocomotion.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\NewInput\\PlayerLocomotion.cs",
               "ToolTip": "S:\\Unity projects\\GameDev AITU\\Asik 3 gamedev\\Assets\\Scripts\\Player\\NewInput\\PlayerLocomotion.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\NewInput\\PlayerLocomotion.cs",
-              "ViewState": "AgIAAJQAAAAAAAAAAABBwJUAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-25T16:42:22.311Z",
               "EditorCaption": ""

@@ -414,7 +414,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TeleportToOrigin
   xCoordinate: 0
-  yCoordinate: 100
+  yCoordinate: 0
   zCoordinate: 0
 --- !u!1 &754824852
 GameObject:
