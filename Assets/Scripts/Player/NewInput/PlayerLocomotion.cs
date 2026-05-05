@@ -10,6 +10,12 @@ public class PlayerLocomotion : MonoBehaviour
     Transform cameraObject;
     Rigidbody playerRigidbody;
 
+    [Header("Abilities")]
+    public bool hasDash = false;
+    public float dashForce = 150f;
+    public float dashCooldown = 2.0f;
+    public float dashTime = 0f;
+
     [Header("Falling")]
     public float inAirTimer;
     public float leapingVelocity = 3f;
@@ -110,6 +116,21 @@ public class PlayerLocomotion : MonoBehaviour
         velocity.z = target.z;
 
         playerRigidbody.linearVelocity = velocity;
+    }
+
+    public void HandleDash()
+    {
+        if (dashTime <= 0 && hasDash)
+        {
+            Debug.Log("Dash!");
+
+            float Gravity = playerRigidbody.useGravity ? 1 : 0;
+            playerRigidbody.useGravity = false;
+            playerRigidbody.AddForce(transform.forward * dashForce * 100);
+            playerRigidbody.useGravity = Gravity > 0;
+
+            dashTime = dashCooldown;
+        }
     }
 
 

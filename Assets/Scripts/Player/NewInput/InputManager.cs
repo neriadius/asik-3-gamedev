@@ -22,6 +22,7 @@ public class InputManager : MonoBehaviour
 
     public bool sprint_Input;
     public bool jump_Input;
+    public bool dash_Input;
 
 
     private void Awake()
@@ -44,6 +45,8 @@ public class InputManager : MonoBehaviour
             playerControls.PlayerActions.Sprint.canceled += i => sprint_Input = false;
 
             playerControls.PlayerActions.Jump.performed += i => jump_Input = true;
+
+            playerControls.PlayerActions.Dash.performed += i => dash_Input = true;
         }
         playerControls.Enable();
     }
@@ -59,6 +62,7 @@ public class InputManager : MonoBehaviour
         HandleMovementInput();
         HandleSprintingInput();
         HandleJumpInput();
+        HandleDashInput();
     }
 
     private void HandleMovementInput()
@@ -94,4 +98,12 @@ public class InputManager : MonoBehaviour
         }
     }
 
+    private void HandleDashInput()
+    {
+        if (dash_Input)
+        {
+            dash_Input = false;
+            playerLocomotion.HandleDash();
+        }
+    }
 }

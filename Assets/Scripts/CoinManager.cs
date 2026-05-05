@@ -8,9 +8,9 @@ public class CoinManager : MonoBehaviour
     public int coinCount = 0;
     public TMP_Text coinText;
 
+    //Singleton setup
     private void Awake()
     {
-        // Singleton setup
         if (Instance == null)
             Instance = this;
         else

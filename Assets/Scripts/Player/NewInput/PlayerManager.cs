@@ -30,6 +30,10 @@ public class PlayerManager : MonoBehaviour
     private void FixedUpdate()
     {
         playerLocomotion.HandleAllMovements();
+        //Debug.Log(playerLocomotion.dashTime);
+        if (playerLocomotion.dashTime > 0) {
+            playerLocomotion.dashTime -= Time.deltaTime;
+        }    
     }
 
     private void LateUpdate()
